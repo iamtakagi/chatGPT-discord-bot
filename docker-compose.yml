@@ -7,3 +7,4 @@ services:
     container_name: chatgpt-discord-bot
     volumes:
       - ./config.json:/DiscordBot/config.json
+    restart: always
